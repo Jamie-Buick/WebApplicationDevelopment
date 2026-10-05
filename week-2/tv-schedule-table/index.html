@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV lisitings</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid gray;
+            padding: 4px 8px;
+            width: 100px;
+            text-align: center;
+        }
+        caption {
+            background-color: yellow;
+            font-weight: bold;
+            padding: 4px;
+        }
+        .talk-show {
+            background-color: lightgreen;
+        }
+        .news {
+           background-color: lightblue;
+        }
+        .news {
+           background-color: lightblue;
+        }
+        .the-news {
+           background-color: gray;
+        }
+        .sunday-movie {
+           background-color: lightgray ;
+
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <table>
+            <caption>Tv Listings</caption>
+            <thead>
+                <tr>
+                    <th scope = "col"> </th>
+                    <th scope = "col">7.30pm</th>
+                    <th scope = "col">8.00pm</th>
+                    <th scope = "col">8.30pm</th>
+                    <th scope = "col">9.00pm</th>
+                    <th scope = "col">9.30pm</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td class="sunday-movie" colspan="3">The Sunday Movie</td>
+                    <td class="the-news" colspan="2">The News</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>TV Show</td>
+                    <td colspan="2">The Monday Movie</td>
+                    <td class="news" rowspan="3">News</td>
+                    <td class="talk-show">Talk Show</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>TV Show</td>
+                    <td rowspan="2" colspan="2">Cops</td>
+                    <td>Current Affairs</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>TV Show</td>
+                    <td class="talk-show">Talk Show</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+
+
+
+    </main>
+    
+</body>
+</html>
