@@ -1,0 +1,16 @@
+Exercise 1 notes: Fernhill Plant Shop
+Name: Jamie
+
+Contrast ratio of the footer text on the footer background (from the checker):
+Does it reach 4.5 to 1? - 
+It is 9.25:1
+
+
+Which rule styles the Basil list item, and what kind of selector is it? 
+The 'class' selector featured styles the basil list item.
+
+Which two rules both apply to the first footer paragraph, and what does each one set?
+id selector hours and the footer selector
+
+
+Validator results: index.html / about.html / styles.css:
