@@ -1,0 +1,16 @@
+Puzzles: my predictions (before opening any page)
+Puzzle 1: cool
+Puzzle 2: Plenty in stock
+Puzzle 3: Silver - first true statement.
+Puzzle 4: Bronze - first true statment.
+Puzzle 5: Discount
+Puzzle 6: Not breezy
+Puzzle 7: Take an umbrella.
+Puzzle 8: Busy Open the second door - Two seperate IF statements so they both run.
+
+Tickets: what was wrong, and what I changed
+Ticket 1: changed the statement to >= to include 16.
+Ticket 2: swapped the if statements so that the large group rate condition is first.
+Ticket 3: There was two seperate if statements, Made it an if else statement.
+Ticket 4: Changed from an OR statement to an AND statement.
+Validator results:

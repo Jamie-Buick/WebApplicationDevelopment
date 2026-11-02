@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicks</title>
+</head>
+<body>
+    <h1>Click Counter</h1>
+    <button onclick="addOne()">Add one</button>
+    <button onclick="showTotal()">Show total</button>
+
+    <script>
+        var clicks = 0;
+
+        function addOne(){
+            clicks = clicks + 1;
+        }
+
+        function showTotal(){
+            alert(clicks);
+        }
+
+    </script>
+    
+</body>
+</html>

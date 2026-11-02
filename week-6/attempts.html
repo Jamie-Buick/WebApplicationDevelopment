@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=#, initial-scale=1.0">
+    <title>Attempts</title>
+</head>
+<body>
+    <script>
+        var password = "bluebell";
+        var message = "Sorry, no more attempts."
+
+        for (var i = 1; i <=3; i++) {
+            var answer = prompt("Attempt " + i + " of 3: enter the password");
+            if (answer === password) {
+                message = "Welcome in"
+                break;
+            }
+        }
+        document.write(message);
+    </script>
+</body>
+</html>
