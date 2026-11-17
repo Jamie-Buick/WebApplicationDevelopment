@@ -1,0 +1,8 @@
+1. blue large, 6
+2. With brackets: 30. With a dot: undefined.
+3. Colour: undefined
+4. Room 12 has 4 guests.
+5. Price: 20 
+6. Before undefined after red
+7. Owner: object    Owner: Mairead from Clare
+8. Cathal is 11. Pupils: 3. Pupils.name is undefined.

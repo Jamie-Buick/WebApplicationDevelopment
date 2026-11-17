@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakeside Bikes</title>
+</head>
+<body>
+    <p>Bikes in the fleet: <span id="bike-count"></span></p>
+    <p>First bike: <span id="first-bike"></span></p>
+    <ul id="bike-list"></ul>
+    <p id="fleet-total"></p>
+
+    <script>
+
+        const bikes = [
+            { id: 1, model: 'Trailblazer', pricePerDay: 18 },
+            { id: 2, model: 'City Glider', pricePerDay: 12 },
+            { id: 3, model: 'Kids Scout', pricePerDay: 8 },
+
+        ];
+
+        bikes.push({ id: 4, model: 'Tandem', pricePerDay: 30 });
+
+
+        const firstBike = document.getElementById('first-bike');
+        firstBike.textContent = bikes[0].model;
+
+        const bikeCount = document.getElementById('bike-count');
+        bikeCount.textContent = bikes.length;
+
+        const bikeList = document.getElementById('bike-list');
+        
+        for (const bike of bikes) {
+            const listItem = document.createElement('li');
+            listItem.textContent = `${bike.model}: £${bike.pricePerDay} a day`;
+            bikeList.append(listItem);
+        }
+
+        let fleetPrice = 0;
+        for (const bike of bikes) {
+            fleetPrice = fleetPrice + bike.pricePerDay
+        }
+
+        const fleetTotal = document.getElementById('fleet-total');
+        fleetTotal.textContent = `One day earning from every bike is £${fleetPrice}`;
+
+
+
+        
+
+
+       
+
+
+        
+    </script>
+    
+</body>
+</html>
