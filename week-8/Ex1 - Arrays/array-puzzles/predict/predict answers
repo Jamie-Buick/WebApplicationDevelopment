@@ -1,0 +1,8 @@
+1. red and blue
+2. Fourth day: but nothing will be shown as index[3] doesn't exist?
+3. People waiting: 5
+4. Last stop: Station. After it: undefined.
+5. Reds Blues Greens undefined
+6. scores: 3 and then the rest is a type error due to redefining scores array
+7. false, 2, -1
+8. Index 4 is Eli
