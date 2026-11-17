@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Island Times</title>
+</head>
+<body>
+    <ul id="game-list"></ul>
+    <p>Tonight we play: <span id="game-pick"></span></p>
+    <button id="pick-button">Pick another game</button>
+
+    <script>
+      
+
+        const games  = ['Chess', 'Ludo', 'Dominoes', 'Snakes and Ladders'];
+        games.push('Cluedo');
+        const gameList = document.getElementById('game-list');
+
+        for (const game of games) {
+        const item = document.createElement('li');
+        item.textContent = game;
+        gameList.append(item);
+        }
+        
+
+
+
+
+        const gamePick = document.getElementById('game-pick');
+        const pickButton = document.getElementById('pick-button');
+
+
+        function pickGame() {
+            const pickIndex = Math.floor(Math.random() * games.length);
+            gamePick.textContent = games[pickIndex];      
+        }
+
+        pickButton.addEventListener('click', pickGame);
+        pickGame();
+
+    
+    </script>
+    
+</body>
+</html>
